@@ -1,0 +1,21 @@
+12.4 Accumulating Text
+======================
+
+Usually we copy or move text by killing it and yanking it, but there are
+other convenient methods for copying one block of text in many places,
+or for copying many scattered blocks of text into one place.  Here we
+describe the commands to accumulate scattered pieces of text into a
+buffer or into a file.
+
+‘M-x append-to-buffer’
+     Append region to the contents of a specified buffer.
+‘M-x prepend-to-buffer’
+     Prepend region to the contents of a specified buffer.
+‘M-x copy-to-buffer’
+     Copy region into a specified buffer, deleting that buffer’s old
+     contents.
+‘M-x insert-buffer’
+     Insert the contents of a specified buffer into current buffer at
+     point.
+‘M-x append-to-file’
+     Append region to the contents of a specified file, at the end.

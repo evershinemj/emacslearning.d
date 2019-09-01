@@ -1,0 +1,3 @@
+‘C-x C-p’
+     Move point to the beginning of the current page, and set mark at
+     the end (‘mark-page’).

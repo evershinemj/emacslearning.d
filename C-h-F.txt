@@ -1,0 +1,5 @@
+C-h-F:
+help for commands
+
+C-h-f:
+describe-function

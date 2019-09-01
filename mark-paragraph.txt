@@ -1,0 +1,11 @@
+
+   When you wish to operate on a paragraph, type ‘M-h’
+(‘mark-paragraph’) to set the region around it.  For example, ‘M-h C-w’
+kills the paragraph around or after point.  ‘M-h’ puts point at the
+beginning and mark at the end of the paragraph point was in.  If point
+is between paragraphs (in a run of blank lines, or at a boundary), ‘M-h’
+sets the region around the paragraph following point.  If there are
+blank lines preceding the first line of the paragraph, one of these
+blank lines is included in the region.  If the region is already active,
+the command sets the mark without changing point, and each subsequent
+‘M-h’ further advances the mark by one paragraph.

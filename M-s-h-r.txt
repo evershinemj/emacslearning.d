@@ -1,0 +1,1 @@
+M-s h r			highlight-regexp

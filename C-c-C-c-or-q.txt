@@ -1,0 +1,3 @@
+in electric buffer:
+C-c-C-c or q:
+quit

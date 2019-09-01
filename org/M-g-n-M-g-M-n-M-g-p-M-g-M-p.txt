@@ -1,0 +1,4 @@
+‘M-g n’  or  ‘M-g M-n’     (‘next-error’)
+     Jump to the next sparse tree match in this buffer.
+‘M-g p’  or  ‘M-g M-p’     (‘previous-error’)
+     Jump to the previous sparse tree match in this buffer.

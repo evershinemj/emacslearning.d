@@ -1,0 +1,4 @@
+shell mode
+C-c-C-e
+Scroll to put the last line of the buffer at the bottom of the
+     window (‘comint-show-maximum-output’).

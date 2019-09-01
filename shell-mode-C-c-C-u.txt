@@ -1,0 +1,3 @@
+shell mode
+C-c-C-u
+acts as C-u in bash

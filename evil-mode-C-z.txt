@@ -1,0 +1,2 @@
+C-z
+switch between vim normal mode and emacs 

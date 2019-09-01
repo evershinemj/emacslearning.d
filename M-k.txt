@@ -1,0 +1,1 @@
+M-k          Kill to the end of the current sentence

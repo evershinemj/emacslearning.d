@@ -1,0 +1,7 @@
+‘C-<SPC>’
+     Set the mark at point, and activate it (‘set-mark-command’).
+‘C-@’
+     The same.
+‘C-x C-x’
+     Set the mark at point, and activate it; then move point where the
+     mark used to be (‘exchange-point-and-mark’).

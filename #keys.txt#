@@ -1,0 +1,57 @@
+C-x C-b		list buffers
+C-x b	  	switch to buffer
+C-x k		kill-buffer
+C-x o		other-window
+C-x z		repeat
+C-x <left>	previous-buffer
+C-x <right>	next-buffer
+
+‘C-<SPC>’
+     Set the mark at point, and activate it (‘set-mark-command’).
+‘C-x C-x’
+     Set the mark at point, and activate it; then move point where the
+     mark used to be (‘exchange-point-and-mark’).
+C-<SPC> C-<SPC>	mark a position
+C-u C-<SPC>	jump back to a mark
+‘M-h’
+     Move point to the beginning of the current paragraph, and set mark
+     at the end (‘mark-paragraph’).
+‘C-x C-p’
+     Move point to the beginning of the current page, and set mark at
+     the end (‘mark-page’).
+‘C-x h’
+     Move point to the beginning of the buffer, and set mark at the end
+     (‘mark-whole-buffer’).
+C-x SPC 	rectangle-mark-mode
+C-g 		explicitly deactivate the mark
+C-w 		kill-region
+M-w		kill-ring-save
+‘M-y’
+     Replace the text just yanked with an earlier batch of killed text
+     (‘yank-pop’).  *Note Earlier Kills::.
+
+C-x 0 		delete-window
+C-x 1		delete-other-windows
+C-x 2		split-window-below
+C-x 3		split-winow-right
+
+C-x C-t 	transpose lines
+C-x =		what-cursor-position
+C-x l		count-lines-page
+C-x m		compose-mail
+C-x 4 C-f	find-file-other-window
+C-x 4 C-o	display-buffer
+C-x 4 0		kill-buffer-and-window
+C-x 4 a		add-change-log-entry-other-window
+C-x 4 b		switch-to-buffer-other-window
+C-x 4 f		find-file-other-window
+C-x 4 m		compose-mail-other-window
+C-x 5 C-f	find-file-other-frame
+C-x 5 C-o	display-buffer-other-frame
+C-x 5 0		delete frame
+C-x 5 1		delete other frames
+C-x 5 b		switch-to-buffer-other-frame
+C-x 5 f		find-file-other-frame
+C-x 5 m		compose-mail-other-frame
+C-x 5 o		other-frame
+C-x <DEL>	backward-kill-sentence

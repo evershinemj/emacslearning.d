@@ -1,0 +1,5 @@
+‘M-h’
+     Move point to the beginning of the current paragraph, and set mark
+     at the end (‘mark-paragraph’).
+
+     pressing M-h another time will mark another paragraph. 

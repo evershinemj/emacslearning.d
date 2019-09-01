@@ -1,0 +1,3 @@
+‘M-r’
+     Begin an incremental regexp search of old shell commands
+     (‘comint-history-isearch-backward-regexp’).

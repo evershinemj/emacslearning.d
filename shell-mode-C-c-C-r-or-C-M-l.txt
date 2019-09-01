@@ -1,0 +1,5 @@
+‘C-c C-r’                                                                  
+‘C-M-l’                                                                    
+     Scroll to display the beginning of the last batch of output at the    
+     top of the window; also move the cursor there                         
+     (‘comint-show-output’).                                               

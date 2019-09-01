@@ -1,0 +1,5 @@
+‘M-p’
+     Fetch the next earlier old shell command (‘comint-previous-input’).
+
+‘M-n’
+     Fetch the next later old shell command (‘comint-next-input’).

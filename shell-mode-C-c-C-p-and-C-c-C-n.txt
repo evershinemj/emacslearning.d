@@ -1,0 +1,5 @@
+‘C-c C-p’                                                          
+     Move point to the previous prompt (‘comint-previous-prompt’). 
+                                                                   
+‘C-c C-n’                                                          
+     Move point to the following prompt (‘comint-next-prompt’).    

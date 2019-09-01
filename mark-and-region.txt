@@ -1,0 +1,38 @@
+11 The Mark and the Region                                              
+**************************                                              
+                                                                        
+Many Emacs commands operate on an arbitrary contiguous part of the      
+current buffer.  To specify the text for such a command to operate on,  
+you set “the mark” at one end of it, and move point to the other end.   
+The text between point and the mark is called “the region”.  The region 
+always extends between point and the mark, no matter which one comes    
+earlier in the text; each time you move point, the region changes.      
+                                                                        
+   Setting the mark at a position in the text also “activates” it.  When
+the mark is active, we say also that the region is active; Emacs        
+indicates its extent by highlighting the text within it, using the      
+‘region’ face (*note Face Customization::).                               
+                                                                        
+   After certain non-motion commands, including any command that changes
+the text in the buffer, Emacs automatically “deactivates” the mark; this
+turns off the highlighting.  You can also explicitly deactivate the mark
+at any time, by typing ‘C-g’ (*note Quitting::).
+
+   The most common way to set the mark is with ‘C-<SPC>’
+(‘set-mark-command’)(1).  This sets the mark where point is, and
+activates it.  You can then move point away, leaving the mark behind.
+
+   For example, suppose you wish to convert part of the buffer to upper
+case.  To accomplish this, go to one end of the desired text, type
+‘C-<SPC>’, and move point until the desired portion of text is
+highlighted.  Now type ‘C-x C-u’ (‘upcase-region’).  This converts the
+text in the region to upper case, and then deactivates the mark.
+
+   Whenever the mark is active, you can deactivate it by typing ‘C-g’
+(*note Quitting::).  Most commands that operate on the region also
+automatically deactivate the mark, like ‘C-x C-u’ in the above example.
+
+   Instead of setting the mark in order to operate on a region, you can
+also use it to remember a position in the buffer (by typing ‘C-<SPC>
+C-<SPC>’), and later jump back there (by typing ‘C-u C-<SPC>’).  *Note
+Mark Ring::, for details.

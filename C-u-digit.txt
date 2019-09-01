@@ -1,0 +1,4 @@
+   Instead of typing ‘M-1’, ‘M-2’, and so on, another way to specify a
+numeric argument is to type ‘C-u’ (‘universal-argument’) followed by
+some digits, or (for a negative argument) a minus sign followed by
+digits.  A minus sign without digits normally means −1.

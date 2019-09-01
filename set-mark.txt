@@ -1,0 +1,41 @@
+‘C-<SPC>’
+     Set the mark at point, and activate it (‘set-mark-command’).
+‘C-@’
+     The same.
+‘C-x C-x’
+     Set the mark at point, and activate it; then move point where the
+     mark used to be (‘exchange-point-and-mark’).
+
+C-<SPC> C-<SPC: set mark and deactivate it
+C-u C-<SPC>: jump to mark
+
+The most common way to set the mark is with ‘C-<SPC>’
+(‘set-mark-command’)(1).  This sets the mark where point is, and
+activates it.  You can then move point away, leaving the mark behind.
+
+   For example, suppose you wish to convert part of the buffer to upper
+case.  To accomplish this, go to one end of the desired text, type
+‘C-<SPC>’, and move point until the desired portion of text is
+highlighted.  Now type ‘C-x C-u’ (‘upcase-region’).  This converts the
+text in the region to upper case, and then deactivates the mark.
+
+   Whenever the mark is active, you can deactivate it by typing ‘C-g’
+(see Quitting).  Most commands that operate on the region also
+automatically deactivate the mark, like ‘C-x C-u’ in the above example.
+
+   Instead of setting the mark in order to operate on a region, you can
+also use it to remember a position in the buffer (by typing ‘C-<SPC>                                                                                          
+C-<SPC>’), and later jump back there (by typing ‘C-u C-<SPC>’).  See
+Mark Ring, for details.
+
+   The command ‘C-x C-x’ (‘exchange-point-and-mark’) exchanges the
+positions of point and the mark.  ‘C-x C-x’ is useful when you are
+satisfied with the position of point but want to move the other end of
+the region (where the mark is).  Using ‘C-x C-x’ a second time, if
+necessary, puts the mark at the new position with point back at its
+original position.  Normally, if the mark is inactive, this command
+first reactivates the mark wherever it was last set, to ensure that the
+region is left highlighted.  However, if you call it with a prefix
+argument, it leaves the mark inactive and the region unhighlighted; you
+can use this to jump to the mark in a manner similar to ‘C-u C-<SPC>’.
+

@@ -1,0 +1,2 @@
+C-T: transpose the char under the cursor with the char before it
+M-T: transpose the word under the cursor with the word before it

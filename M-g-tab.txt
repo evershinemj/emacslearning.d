@@ -1,0 +1,4 @@
+‘M-g <TAB>’
+     Read a number N and move to column N in the current line.  Column 0
+     is the leftmost column.  If called with a prefix argument, move to
+     the column number specified by the argument’s numeric value.

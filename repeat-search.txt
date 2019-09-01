@@ -1,0 +1,7 @@
+Suppose you search forward for ‘FOO’ and find a match, but not the one
+you expected to find: the ‘FOO’ you were aiming for occurs later in the
+buffer.  In this event, type another ‘C-s’ to move to the next
+occurrence of the search string.  You can repeat this any number of
+times.  If you overshoot, you can cancel some ‘C-s’ characters with
+<DEL>.  Similarly, each ‘C-r’ in a backward incremental search repeats
+the backward search.

@@ -1,0 +1,2 @@
+C-h k
+show documentation for key sequence as specified

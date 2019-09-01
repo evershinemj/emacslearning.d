@@ -1,0 +1,2 @@
+ On graphical displays, ‘C-0’, ‘C-1’, etc. act the same as ‘M-0’,
+‘M-1’, etc.

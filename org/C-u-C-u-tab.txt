@@ -1,0 +1,2 @@
+C-u C-u tab
+switch back to startup visibility

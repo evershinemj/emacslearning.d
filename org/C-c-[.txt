@@ -1,0 +1,2 @@
+C-c [
+add file to agenda files

@@ -1,0 +1,6 @@
+After exiting a search, you can search for the same string again by
+typing just ‘C-s C-s’.  The first ‘C-s’ is the key that invokes
+incremental search, and the second ‘C-s’ means to search again for the
+last search string.  Similarly, ‘C-r C-r’ searches backward for the last
+search string.  In determining the last search string, it doesn’t matter
+whether that string was searched for with ‘C-s’ or ‘C-r’.

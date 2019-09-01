@@ -1,0 +1,6 @@
+   ‘C-u’ alone has the special meaning of “four times”: it multiplies
+the argument for the next command by four.  ‘C-u C-u’ multiplies it by
+sixteen.  Thus, ‘C-u C-u C-f’ moves forward sixteen characters.  Other
+useful combinations are ‘C-u C-n’, ‘C-u C-u C-n’ (move down a good
+fraction of a screen), ‘C-u C-u C-o’ (make sixteen blank lines), and
+‘C-u C-k’ (kill four lines).

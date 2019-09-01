@@ -1,0 +1,9 @@
+
+   By default, the prefix keys in Emacs are ‘C-c’, ‘C-h’, ‘C-x’, ‘C-x
+<RET>’, ‘C-x @’, ‘C-x a’, ‘C-x n’, ‘C-x r’, ‘C-x v’, ‘C-x 4’, ‘C-x 5’,
+‘C-x 6’, <ESC>, ‘M-g’, and ‘M-o’.  (<F1> and <F2> are aliases for ‘C-h’
+and ‘C-x 6’.)  This list is not cast in stone; if you customize Emacs,
+you can make new prefix keys.  You could even eliminate some of the
+standard ones, though this is not recommended for most users; for
+example, if you remove the prefix definition of ‘C-x 4’, then ‘C-x 4
+C-f’ becomes an invalid key sequence.  *Note Key Bindings::.

@@ -1,0 +1,14 @@
+   A table is re-aligned automatically each time you press <TAB> or
+<RET> or ‘C-c C-c’ inside the table.  <TAB> also moves to the next field
+(<RET> to the next row) and creates new table rows at the end of the
+table or before horizontal lines.  The indentation of the table is set
+by the first line.  Any line starting with ‘|-’ is considered as a
+horizontal separator line and will be expanded on the next re-align to
+span the whole table width.  So, to create the above table, you would
+only type
+
+     |Name|Phone|Age|
+     |-
+
+and then press <TAB> to align the table and start filling in fields.
+Even faster would be to type ‘|Name|Phone|Age’ followed by ‘C-c <RET>’.

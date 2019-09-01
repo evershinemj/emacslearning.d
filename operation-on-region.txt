@@ -1,0 +1,18 @@
+11.3 Operating on the Region
+============================
+
+Once you have a region, here are some of the ways you can operate on it:
+
+   • Kill it with ‘C-w’ (*note Killing::).
+   • Copy it to the kill ring with ‘M-w’ (*note Yanking::).
+   • Convert case with ‘C-x C-l’ or ‘C-x C-u’ (*note Case::).
+   • Undo changes within it using ‘C-u C-/’ (*note Undo::).
+   • Replace text within it using ‘M-%’ (*note Query Replace::).
+   • Indent it with ‘C-x <TAB>’ or ‘C-M-\’ (*note Indentation::).
+   • Fill it as text with ‘M-x fill-region’ (*note Filling::).
+   • Check the spelling of words within it with ‘M-$’ (*note
+     Spelling::).
+   • Evaluate it as Lisp code with ‘M-x eval-region’ (*note Lisp
+     Eval::).
+   • Save it in a register with ‘C-x r s’ (*note Registers::).
+   • Save it in a buffer or a file (*note Accumulating Text::).

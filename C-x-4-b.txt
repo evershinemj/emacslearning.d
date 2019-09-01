@@ -1,0 +1,29 @@
+C-x 4 b runs the command switch-to-buffer-other-window (found in
+global-map), which is an interactive compiled Lisp function in
+‘window.el’.
+
+It is bound to C-x 4 b.
+
+(switch-to-buffer-other-window BUFFER-OR-NAME &optional NORECORD)
+
+Select the buffer specified by BUFFER-OR-NAME in another window.
+BUFFER-OR-NAME may be a buffer, a string (a buffer name), or
+nil.  Return the buffer switched to.
+
+If called interactively, read the buffer name using ‘read-buffer’.
+The variable ‘confirm-nonexistent-file-or-buffer’ determines
+whether to request confirmation before creating a new buffer.
+See ‘read-buffer’ for features related to input and completion
+of buffer names.
+
+If BUFFER-OR-NAME is a string and does not identify an existing
+buffer, create a new buffer with that name.  If BUFFER-OR-NAME is
+nil, switch to the buffer returned by ‘other-buffer’.
+
+Optional second argument NORECORD non-nil means do not put this
+buffer at the front of the list of recently selected ones.
+
+This uses the function ‘display-buffer’ as a subroutine; see its
+documentation for additional customization information.
+
+[back]

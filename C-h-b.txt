@@ -1,0 +1,18 @@
+C-h b runs the command describe-bindings (found in global-map), which
+is an interactive compiled Lisp function in ‘help.el’.
+
+It is bound to C-h b, <f1> b, <help> b, <menu-bar> <help-menu>
+<describe> <list-keybindings>.
+
+(describe-bindings &optional PREFIX BUFFER)
+
+Display a buffer showing a list of all defined keys, and their definitions.
+The keys are displayed in order of precedence.
+
+The optional argument PREFIX, if non-nil, should be a key sequence;
+then we display only bindings that start with that prefix.
+The optional argument BUFFER specifies which buffer’s bindings
+to display (default, the current buffer).  BUFFER can be a buffer
+or a buffer name.
+
+[back]

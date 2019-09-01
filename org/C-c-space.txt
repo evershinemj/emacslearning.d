@@ -1,0 +1,2 @@
+‘C-c <SPC>     (org-table-blank-field)’
+     Blank the field at point.

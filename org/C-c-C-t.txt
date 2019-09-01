@@ -1,0 +1,2 @@
+C-c C-t
+switch among TODO, DONE and original title

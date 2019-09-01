@@ -1,0 +1,13 @@
+repositon point
+‘M-r’
+     Without moving the text on the screen, reposition point on the left
+     margin of the center-most text line of the window; on subsequent
+     consecutive invocations, move point to the left margin of the
+     top-most line, the bottom-most line, and so forth, in cyclic order
+     (‘move-to-window-line-top-bottom’).
+
+     A numeric argument says which screen line to place point on,
+     counting downward from the top of the window (zero means the top
+     line).  A negative argument counts lines up from the bottom (−1
+     means the bottom line).  See Arguments, for more information on
+     numeric arguments.

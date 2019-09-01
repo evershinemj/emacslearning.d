@@ -1,0 +1,73 @@
+java-mode is an interactive autoloaded compiled Lisp function in
+‘cc-mode.el’.
+
+(java-mode)
+
+Parent mode: ‘prog-mode’.
+
+Major mode for editing Java code.
+To submit a problem report, enter ‘C-c C-b’ from a
+java-mode buffer.  This automatically sets up a mail buffer with
+version information already added.  You just need to add a description
+of the problem, including a reproducible test case, and send the
+message.
+
+To see what version of CC Mode you are running, enter ‘M-x c-version’.
+
+The hook ‘c-mode-common-hook’ is run with no args at mode
+initialization, then ‘java-mode-hook’.
+
+Key bindings:
+key             binding
+---             -------
+
+C-c				Prefix Command
+C-d				c-electric-delete-forward
+TAB				c-indent-line-or-region
+ESC				Prefix Command
+#				c-electric-pound
+( .. )			c-electric-paren
+*				c-electric-star
+,				c-electric-semi&comma
+/				c-electric-slash
+:				c-electric-colon
+;				c-electric-semi&comma
+{				c-electric-brace
+}				c-electric-brace
+DEL				c-electric-backspace
+
+C-c C-a			c-toggle-auto-newline
+C-c C-b			c-submit-bug-report
+C-c C-c			comment-region
+C-c C-d			c-hungry-delete-forward
+C-c C-k			c-toggle-comment-style
+C-c C-l			c-toggle-electric-state
+C-c C-n			c-forward-conditional
+C-c C-o			c-set-offset
+C-c C-p			c-backward-conditional
+C-c C-q			c-indent-defun
+C-c C-s			c-show-syntactic-information
+C-c C-u			c-up-conditional
+C-c C-w			c-subword-mode
+C-c C-z			c-display-defun-name
+C-c C-\			c-backslash-region
+C-c .			c-set-style
+C-c DEL			c-hungry-delete-backwards
+C-c C-DEL		c-hungry-delete-backwards
+C-c <C-backspace>				c-hungry-delete-backwards
+C-c <C-delete>					c-hungry-delete-forward
+C-c <C-deletechar>				c-hungry-delete-forward
+C-c <deletechar>				c-hungry-delete-forward
+
+C-M-a			c-beginning-of-defun
+C-M-e			c-end-of-defun
+C-M-h			c-mark-function
+C-M-j			c-indent-new-comment-line
+C-M-q			c-indent-exp
+M-a				c-beginning-of-statement
+M-e				c-end-of-statement
+M-j				c-indent-new-comment-line
+M-q				c-fill-paragraph
+
+C-M-q			prog-indent-sexp
+  (that binding is currently shadowed by another mode)

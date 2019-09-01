@@ -1,0 +1,12 @@
+C-x C-r runs the command find-file-read-only (found in global-map),
+which is an interactive compiled Lisp function in ‘files.el’.
+
+It is bound to C-x C-r.
+
+(find-file-read-only FILENAME &optional WILDCARDS)
+
+Edit file FILENAME but don’t allow changes.
+Like C-x C-f, but marks buffer as read-only.
+Use C-x C-q to permit editing.
+
+[back]

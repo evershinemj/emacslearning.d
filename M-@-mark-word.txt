@@ -1,0 +1,15 @@
+M-@ runs the command mark-word (found in global-map), which is an
+interactive compiled Lisp function in ‘simple.el’.
+
+It is bound to M-@.
+
+(mark-word &optional ARG ALLOW-EXTEND)
+
+Set mark ARG words away from point.
+The place mark goes is the same place M-f would
+move to with the same argument.
+Interactively, if this command is repeated
+or (in Transient Mark mode) if the mark is active,
+it marks the next ARG words after the ones already marked.
+
+[back]

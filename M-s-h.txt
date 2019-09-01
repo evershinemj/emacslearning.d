@@ -1,0 +1,2 @@
+M-s h:
+	prefix command for highlight

@@ -1,0 +1,2 @@
+C-x i
+insert file

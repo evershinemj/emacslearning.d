@@ -1,0 +1,12 @@
+M-^ runs the command delete-indentation (found in global-map), which
+is an interactive compiled Lisp function in ‘simple.el’.
+
+It is bound to M-^.
+
+(delete-indentation &optional ARG)
+
+Join this line to previous and fix up whitespace at join.
+If there is a fill prefix, delete it from the beginning of this line.
+With argument, join this line to following line.
+
+[back]

@@ -1,0 +1,11 @@
+scroll-other-window-down is an interactive compiled Lisp function in
+‘window.el’.
+
+It is bound to <M-prior>, C-M-y, C-M-S-v, ESC <prior>.
+
+(scroll-other-window-down &optional LINES)
+
+Scroll the "other window" down.
+For more details, see the documentation for ‘scroll-other-window’.
+
+[back]

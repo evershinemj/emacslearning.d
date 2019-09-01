@@ -1,0 +1,50 @@
+M-% runs the command query-replace (found in global-map), which is an
+interactive compiled Lisp function in ‘replace.el’.
+
+It is bound to M-%, <menu-bar> <edit> <replace> <query-replace>.
+
+(query-replace FROM-STRING TO-STRING &optional DELIMITED START END
+BACKWARD REGION-NONCONTIGUOUS-P)
+
+Replace some occurrences of FROM-STRING with TO-STRING.
+As each match is found, the user must type a character saying
+what to do with it.  For directions, type C-h at that time.
+
+In Transient Mark mode, if the mark is active, operate on the contents
+of the region.  Otherwise, operate from point to the end of the buffer’s
+accessible portion.
+
+In interactive use, the prefix arg (non-nil DELIMITED in
+non-interactive use), means replace only matches surrounded by
+word boundaries.  A negative prefix arg means replace backward.
+
+Use M-n to pull the last incremental search string to the minibuffer
+that reads FROM-STRING, or invoke replacements from
+incremental search with a key sequence like ‘C-s C-s M-%’
+to use its current search string as the string to replace.
+
+Matching is independent of case if ‘case-fold-search’ is non-nil and
+FROM-STRING has no uppercase letters.  Replacement transfers the case
+pattern of the old text to the new text, if ‘case-replace’ and
+‘case-fold-search’ are non-nil and FROM-STRING has no uppercase
+letters.  (Transferring the case pattern means that if the old text
+matched is all caps, or capitalized, then its replacement is upcased
+or capitalized.)
+
+Ignore read-only matches if ‘query-replace-skip-read-only’ is non-nil,
+ignore hidden matches if ‘search-invisible’ is nil, and ignore more
+matches using ‘isearch-filter-predicate’.
+
+If ‘replace-lax-whitespace’ is non-nil, a space or spaces in the string
+to be replaced will match a sequence of whitespace chars defined by the
+regexp in ‘search-whitespace-regexp’.
+
+If ‘replace-char-fold’ is non-nil, matching uses character folding,
+i.e. it ignores diacritics and other differences between equivalent
+character strings.
+
+Fourth and fifth arg START and END specify the region to operate on.
+
+To customize possible responses, change the bindings in ‘query-replace-map’.
+
+[back]

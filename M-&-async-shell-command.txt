@@ -1,0 +1,26 @@
+M-& runs the command async-shell-command (found in global-map), which
+is an interactive compiled Lisp function in ‘simple.el’.
+
+It is bound to M-&.
+
+(async-shell-command COMMAND &optional OUTPUT-BUFFER ERROR-BUFFER)
+
+Execute string COMMAND asynchronously in background.
+
+Like ‘shell-command’, but adds ‘&’ at the end of COMMAND
+to execute it asynchronously.
+
+The output appears in the buffer ‘*Async Shell Command*’.
+That buffer is in shell mode.
+
+You can configure ‘async-shell-command-buffer’ to specify what to do
+when the ‘*Async Shell Command*’ buffer is already taken by another
+running shell command.  To run COMMAND without displaying the output
+in a window you can configure ‘display-buffer-alist’ to use the action
+‘display-buffer-no-window’ for the buffer ‘*Async Shell Command*’.
+
+In Elisp, you will often be better served by calling ‘start-process’
+directly, since it offers more control and does not impose the use of
+a shell (with its need to quote arguments).
+
+[back]

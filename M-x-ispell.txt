@@ -1,0 +1,4 @@
+M-x ispell
+M-x ispell-buffer
+M-x ispell-region
+M-x ispell-complete-word (M-tab in text mode)

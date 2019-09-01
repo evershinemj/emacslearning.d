@@ -1,0 +1,3 @@
+‘C-c /’     (‘org-sparse-tree’)
+     This prompts for an extra key to select a sparse-tree creating
+     command.

@@ -1,0 +1,29 @@
+C-x 4 C-f runs the command find-file-other-window (found in
+global-map), which is an interactive compiled Lisp function in
+‘files.el’.
+
+It is bound to C-x 4 C-f, C-x 4 f.
+
+(find-file-other-window FILENAME &optional WILDCARDS)
+
+Edit file FILENAME, in another window.
+
+Like C-x C-f (which see), but creates a new window or reuses
+an existing one.  See the function ‘display-buffer’.
+
+Interactively, the default if you just type RET is the current directory,
+but the visited file name is available through the minibuffer history:
+type M-x next-history-element to pull it into the minibuffer.
+
+The first time M-x next-history-element is used after Emacs prompts for
+the file name, the result is affected by ‘file-name-at-point-functions’,
+which by default try to guess the file name by looking at point in the
+current buffer.  Customize the value of ‘file-name-at-point-functions’
+or set it to nil, if you want only the visited file name and the
+current directory to be available on first M-x next-history-element
+request.
+
+Interactively, or if WILDCARDS is non-nil in a call from Lisp,
+expand wildcards (if any) and visit multiple files.
+
+[back]

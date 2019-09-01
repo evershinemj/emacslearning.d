@@ -1,0 +1,7 @@
+   To reuse earlier search strings, use the “search ring”.  The commands
+‘M-p’ and ‘M-n’ move through the ring to pick a search string to reuse.
+These commands leave the selected search ring element in the minibuffer,
+where you can edit it.  Type ‘C-s’/‘C-r’ or <RET> to accept the string
+and start searching for it.  The number of most recently used search
+strings saved in the search ring is specified by the variable
+‘search-ring-max’, 16 by default.

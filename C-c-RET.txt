@@ -1,0 +1,7 @@
+‘C-c <RET>’
+     Copy the input command at point, inserting the copy at the end of
+     the buffer (‘comint-copy-old-input’).  This is useful if you move
+     point back to a previous command.  After you copy the command, you
+     can submit the copy as input with <RET>.  If you wish, you can edit
+     the copy before resubmitting it.  If you use this command on an
+     output line, it copies that line to the end of the buffer.

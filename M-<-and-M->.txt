@@ -1,0 +1,8 @@
+‘M-<’
+     Move to the top of the buffer (‘beginning-of-buffer’).  With
+     numeric argument N, move to N/10 of the way from the top.  On
+     graphical displays, ‘C-<HOME>’ does the same.
+
+‘M->’
+     Move to the end of the buffer (‘end-of-buffer’).  On graphical
+     displays, ‘C-<END>’ does the same.

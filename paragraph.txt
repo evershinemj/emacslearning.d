@@ -1,0 +1,8 @@
+
+   The definition of a paragraph depends on the major mode.  In
+Fundamental mode, as well as Text mode and related modes, a paragraph is
+separated from neighboring paragraphs by one or more “blank lines”—lines
+that are either empty, or consist solely of space, tab and/or formfeed
+characters.  In programming language modes, paragraphs are usually
+defined in a similar way, so that you can use the paragraph commands
+even though there are no paragraphs as such in a program.

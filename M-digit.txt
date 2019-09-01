@@ -1,0 +1,6 @@
+   The easiest way to specify a numeric argument is to type a digit
+and/or a minus sign while holding down the <Meta> key.  For example,
+
+     M-5 C-n
+
+moves down five lines.

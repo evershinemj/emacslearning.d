@@ -1,0 +1,3 @@
+shell mode
+C-c-C-w
+acts as C-w in bash

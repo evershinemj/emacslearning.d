@@ -1,0 +1,1 @@
+M-s .			isearch-forward-symbol-at-point

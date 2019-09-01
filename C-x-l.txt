@@ -1,0 +1,10 @@
+C-x l runs the command count-lines-page (found in global-map), which
+is an interactive compiled Lisp function in ‘page.el’.
+
+It is bound to C-x l.
+
+(count-lines-page)
+
+Report number of lines on current page, and how many are before or after point.
+
+[back]

@@ -1,0 +1,4 @@
+M-<UP>
+move entire entry up
+M-<DOWN>
+move entire entry down

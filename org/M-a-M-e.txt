@@ -1,0 +1,5 @@
+‘M-a     (org-table-beginning-of-field)’
+     Move to beginning of the current table field, or on to the previous
+     field.
+‘M-e     (org-table-end-of-field)’
+     Move to end of the current table field, or on to the next field.
