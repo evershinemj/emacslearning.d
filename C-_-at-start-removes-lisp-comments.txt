@@ -1,0 +1,1 @@
+pressing C-_ immediately after starting emacs removes lisp comments, namely, clears the screen
